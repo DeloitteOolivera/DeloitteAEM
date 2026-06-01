@@ -13,7 +13,11 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: var(--background-color);
+  color: var(--light-color);
+}
+
+.hero p{
+  color: var(--light-color)
 }
 
 .hero picture {
@@ -29,6 +33,7 @@
   width: 100%;
   height: 100%;
 }
+
 
 @media (width >= 900px) {
   .hero {
