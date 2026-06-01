@@ -187,7 +187,6 @@ async function loadPage() {
 }
 
 loadPage();
-}
 
 (async function loadDa() {
   if (!new URL(window.location.href).searchParams.get('dapreview')) return;
